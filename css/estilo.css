@@ -24,3 +24,19 @@ header .menu ul li a {
     text-decoration: none;
     color: #FDFDFD;
 }
+
+.centrar-formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Define a altura do contêiner para ocupar a altura total da viewport */
+  }
+  
+  .formulario {
+    width: 400px; /* Define a largura do formulário conforme necessário */
+  }
+
+  .imagem-direita {
+    float: right;
+
+}
