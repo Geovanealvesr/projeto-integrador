@@ -3,7 +3,18 @@
 }
 
 .plano {
+<<<<<<< HEAD
     margin: 30px;}
+=======
+    margin: 30px;
+}
+
+header .logo {
+    background-color:#944db8 ;
+    text-align: center;
+    margin: -10px;
+}
+>>>>>>> 634c93fb0292dc47aa2979f8bbc5b6073fa12e20
 
 header .menu {
     background-color: #944db8;
