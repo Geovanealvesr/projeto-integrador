@@ -1,16 +1,9 @@
-<<<<<<< HEAD
 .card-img, .card-img-bottom, .card-img-top {
     width: 50%;
 }
 
 .plano {
-    margin: 30px;
-=======
-header .logo {
-    background-color:#944db8 ;
-    text-align: center;
-    margin: -10px;
-}
+    margin: 30px;}
 
 header .menu {
     background-color: #944db8;
@@ -31,5 +24,5 @@ header .menu ul li {
 header .menu ul li a {
     text-decoration: none;
     color: #FDFDFD;
-}
 
+}
