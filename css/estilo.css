@@ -17,7 +17,7 @@ header .logo {
 header .menu {
     background-color: #388e3c;
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     align-items: center;
 }
 
@@ -39,8 +39,7 @@ header .menu ul li a {
 
 header img {
     width: 20%;
-    display: flexbox;
-    align-items: flex-start;
+    float: left;
 }
 
 body {
@@ -91,9 +90,7 @@ footer .legenda p {
     margin: 30px;
 }
   
-.logo img {
-    float: left;
-}
+
   
 
 
