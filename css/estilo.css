@@ -75,6 +75,8 @@ body .alinharRodapé {
 
   .footer-left img {
     width: 100%;
+    padding-right: 10px;
+    margin-bottom: 13px;
   }
   
   .footer-right {
@@ -89,6 +91,8 @@ body .alinharRodapé {
     align-items: center;
     justify-content: center;
     text-align: center;
+    font-size: 13px;
+    color: #FDFDFD;
   }
   
   .menu {
@@ -102,6 +106,7 @@ body .alinharRodapé {
   .menu ul {
     list-style-type: none;
     word-wrap: break-word;
+    width: max-content;
   }
   
   .menu ul a {
@@ -112,12 +117,14 @@ body .alinharRodapé {
   .bottom-text {
     position: absolute; /* Adicionado */
     bottom: 0px; /* Adicionado */
-    left: 0; /* Adicionado */
-    right: 0; /* Adicionado */
-    text-align: center; /* Adicionado */
+    left: 0; 
+    right: 0; 
+    text-align: center; 
     color: #FDFDFD;
     margin-bottom: 0px;
     word-break: break-all;
+    border-top: 1px solid #FFFF;
+    top: 102px;
   }
   
   
