@@ -15,9 +15,6 @@ border-radius: 40px;
 box-shadow: 0px 0px 5px 2px #B4B4B4;
 --bs-card-spacer-x: 4rem;
 }
-.card-text{
-    
-}
 
 .card-price{
     color:#388E3C;
