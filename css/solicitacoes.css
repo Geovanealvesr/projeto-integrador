@@ -4,6 +4,11 @@ body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, form, fieldset, legend,
     box-sizing: border-box;
 }
 
+main {
+    margin-bottom: 417px;
+}
+  
+
 .formulario {
     position: absolute;
     top: 207px;
@@ -76,3 +81,4 @@ body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, form, fieldset, legend,
         float: none;
     }
 }
+

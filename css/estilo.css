@@ -1,6 +1,6 @@
 header {
     display: flex;
-    max-width: 100%;
+    max-width: 100%;  
 }
  
 header .logo {
@@ -8,6 +8,7 @@ header .logo {
     display: flex;
     align-items: center;
     width: 100%;
+
  
 }
  
@@ -16,6 +17,7 @@ header .menu {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    margin: 0px;
 }
  
 header .menu ul {
@@ -35,7 +37,6 @@ header .menu ul li a {
 }
  
 header img {
-    width: 20%;
     float: left;
 }
  
@@ -55,35 +56,70 @@ body .alinharRodapé {
     left: 0;
 }
  
-footer {
+.footer {
+    background-color: #388e3c;
+    padding: 20px;
     display: flex;
-}
-footer img {
-    width: 20%;
-}
- 
-footer .logo {
-    background-color: #388e3c;
-    width: 100%;
-    align-items: self-start;
-    text-align: right;
-    
-}
- 
-footer .logo img {
+    position: relative; /* Adicionado */
+    border-top: 1px solid #fff; /* Adicionado */
+
+  }
+  
+  .footer-left {
     float: left;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
 }
- 
-footer .legenda {
-    background-color: #388e3c;
+
+  .footer-left img {
+    width: 100%;
+  }
+  
+  .footer-right {
+    float: right;
+    text-align: right;
+    display: flex;
+  }
+  
+  .text {
+    margin-right: 20px;
     display: flex;
     align-items: center;
-    white-space: nowrap;
-}
- 
-footer .legenda p {
-    margin: 6px;
-}
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .menu {
+    display: inline-block;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    text-align: initial;
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    word-wrap: break-word;
+  }
+  
+  .menu ul a {
+    color: #FDFDFD;
+    text-decoration: none;
+  }
+  
+  .bottom-text {
+    position: absolute; /* Adicionado */
+    bottom: 0px; /* Adicionado */
+    left: 0; /* Adicionado */
+    right: 0; /* Adicionado */
+    text-align: center; /* Adicionado */
+    color: #FDFDFD;
+    margin-bottom: 0px;
+    word-break: break-all;
+  }
+  
   
 
   
