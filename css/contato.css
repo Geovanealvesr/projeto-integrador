@@ -37,6 +37,10 @@ body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, form, fieldset, legend,
     color: #388E3C;
 }
 
+.titulo-descricao {
+    justify-content: center;
+}
+
 .form-control {
     width: 100%;
     padding: 10px;
@@ -57,5 +61,10 @@ body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, form, fieldset, legend,
 }
 
 .imagem-form {
-    margin-left: 20px;
+    margin-left: 102px;
+    width: 350px;
+    font-style: italic;
+    font-size: 20px;
+    color: #388E3C;
+    width: 430px;
 }
