@@ -38,6 +38,7 @@ header .menu ul li a {
  
 header img {
     float: left;
+    width: 100px;
 }
  
 body {
@@ -57,8 +58,6 @@ body .alinharRodapé {
 }
  
 .footer {
-    background-color: #388e3c;
-    padding: 20px;
     display: flex;
     position: relative; /* Adicionado */
     border-top: 1px solid #fff; /* Adicionado */
@@ -71,18 +70,20 @@ body .alinharRodapé {
     margin: 0 auto;
     align-items: center;
     justify-content: center;
+    background-color: #388e3c;
 }
 
   .footer-left img {
     width: 100%;
     padding-right: 10px;
-    margin-bottom: 13px;
+    background-color: #388e3c;
   }
   
   .footer-right {
     float: right;
     text-align: right;
     display: flex;
+    background-color: #388e3c;
   }
   
   .text {
@@ -93,6 +94,11 @@ body .alinharRodapé {
     text-align: center;
     font-size: 13px;
     color: #FDFDFD;
+    background-color: #388e3c;
+  }
+
+  .text p {
+    margin: 0 auto;
   }
   
   .menu {
@@ -101,12 +107,15 @@ body .alinharRodapé {
     display: flex;
     align-items: center;
     text-align: initial;
+    background-color: #388e3c;
+    
   }
   
   .menu ul {
     list-style-type: none;
     word-wrap: break-word;
     width: max-content;
+    margin: 0 auto ;
   }
   
   .menu ul a {
@@ -115,18 +124,23 @@ body .alinharRodapé {
   }
   
   .bottom-text {
-    position: absolute; /* Adicionado */
-    bottom: 0px; /* Adicionado */
-    left: 0; 
-    right: 0; 
-    text-align: center; 
     color: #FDFDFD;
-    margin-bottom: 0px;
-    word-break: break-all;
-    border-top: 1px solid #FFFF;
-    top: 102px;
+    background-color: #388e3c;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-top: 1px solid #FDFDFD;
+    
   }
   
+  .bottom-text p {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
   
 
   
