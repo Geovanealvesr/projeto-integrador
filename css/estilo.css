@@ -38,6 +38,7 @@ header .menu ul li a {
  
 header img {
     float: left;
+    width: 100px;
 }
  
 body {
@@ -114,6 +115,7 @@ body .alinharRodapé {
     list-style-type: none;
     word-wrap: break-word;
     width: max-content;
+    margin: 0 auto ;
   }
   
   .menu ul a {
