@@ -1,8 +1,4 @@
-body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, form, fieldset, legend, input, textarea, button, select {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 
 .titulo-1 {
     color: #388E3C;
@@ -18,7 +14,7 @@ body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, form, fieldset, legend,
 
 .card-price {
     color: #388E3C;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .card-title {
@@ -43,6 +39,3 @@ section.planos {
     margin-bottom: 50px;
 }
 
-.footer {
-    padding-bottom: 35px;
-}

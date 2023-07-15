@@ -7,7 +7,26 @@ body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, form, fieldset, legend,
 main {
     margin-bottom: 417px;
 }
-  
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+footer.footer {
+    margin-top: auto;
+}
+
 
 .formulario {
     position: absolute;
@@ -81,4 +100,3 @@ main {
         float: none;
     }
 }
-
