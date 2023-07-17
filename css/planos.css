@@ -31,7 +31,10 @@
 }
 
 .b-r {
-    border-radius: 20px;
+    display: flex;
+    flex-flow: wrap;
+    border-radius: 20px !important;
+    width: 296px;
 }
 
 .vantagens {
@@ -47,3 +50,7 @@ section.planos {
     margin-bottom: 50px;
 }
 
+@media (max-width: 991.98px) {
+    .col-md-4 {
+        width: 100%;}
+    }

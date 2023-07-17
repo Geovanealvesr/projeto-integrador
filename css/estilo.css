@@ -113,7 +113,7 @@ body .alinharRodapé {
   
   .menu ul {
     list-style-type: none;
-    word-wrap: break-word;
+    flex-flow: wrap;
     width: max-content;
     margin: 0 auto ;
   }
@@ -141,9 +141,15 @@ body .alinharRodapé {
     align-items: center;
     margin: 0 auto;
   }
+  .carrosel {
+    max-height: calc(100vh - (44px + 126px));
+    overflow-y: auto;
+  }
+  @media (max-width: 600px) {
+    body {
+      min-width: 600px;
+    }
+  }
   
-
-  
-
 
 

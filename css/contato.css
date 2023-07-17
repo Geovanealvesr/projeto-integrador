@@ -1,7 +1,7 @@
 /* Estilos gerais */
 body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, form, fieldset, legend, input, textarea, button, select {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 
@@ -9,7 +9,6 @@ body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, form, fieldset, legend,
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
 }
 
 .formulario {
@@ -23,11 +22,8 @@ body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, form, fieldset, legend,
     box-shadow: 0px 0px 5px 2px #B4B4B4;
 }
 
-/*.campo {
-    margin-bottom: 40px;
-    padding: 10px;
-    width: 100%;
-}*/
+
+  
 
 .titulo {
     font-size: 24px;
@@ -73,3 +69,14 @@ body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, form, fieldset, legend,
     color: #388E3C;
     width: 430px;
 }
+#mainNav > div > img{
+    height: 60px;
+    width: 100px;
+    justify-content: flex-start;
+}
+
+@media (max-width: 767px) {
+    .descricao-text {
+      display: none;
+    }
+  }
