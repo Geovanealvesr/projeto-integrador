@@ -4,6 +4,7 @@ body {
   background: #ffffff;
 }
 
+
 main {
   margin-bottom: 50px;
 }
@@ -21,11 +22,10 @@ a:focus {
 }
 
 .footer {
-  position: fixed;
+
   bottom: 0;
   left: 0;
   width: 100%;
-  padding-top: 45px;
   background: #388e3c;
 }
 
